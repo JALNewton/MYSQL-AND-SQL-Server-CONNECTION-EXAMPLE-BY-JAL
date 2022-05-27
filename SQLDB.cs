@@ -105,7 +105,7 @@ namespace SQLDB_byJAL
 
         
 
-        private bool Close()
+        public bool Close()
 
         {
 
@@ -119,7 +119,7 @@ namespace SQLDB_byJAL
 
             }
 
-            catch (MySqlException ex)
+            catch (SqlException ex)
 
             {
 
