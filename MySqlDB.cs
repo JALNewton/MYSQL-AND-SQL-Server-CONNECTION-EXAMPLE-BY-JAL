@@ -60,7 +60,7 @@ namespace MySQLDB_byJAL
         }
 
         
-        private bool Close()
+        public bool Close()
         {
             try
             {
